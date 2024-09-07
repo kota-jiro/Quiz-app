@@ -1,0 +1,55 @@
+body{
+    background-image: url(c:\Users\DELL\Desktop\jsp\redstands.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}   
+.container{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center; 
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+h1{
+    font-size: 90px;
+    color: aliceblue;
+}
+h5{
+    margin-bottom: 70px;
+    color: aliceblue;
+}
+.class{
+    background-color: rgb(0 0 0 / 0.4);
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    
+}
+.select{
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.users button{
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35px;
+}
+button{
+    width: 150px;
+    border-radius: 10px;
+}

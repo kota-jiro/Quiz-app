@@ -1,0 +1,48 @@
+.teacher-container{
+    background-color: rgb(0 0 0 / 0.4);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.teacher-wrapper{
+    margin: 60px 50px 60px 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.teacher-head h2{
+    font-size: 50px;
+}
+.teacher-head p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.teacher-input{
+    margin-bottom: 5px;
+}
+.teacher-input input{
+    margin-bottom: 10px;
+    width: 62%;
+    height: 40px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+.teacher-button button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 40px;
+    color: black;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+.back-to-selection{
+    margin-top: 5px;
+}
+

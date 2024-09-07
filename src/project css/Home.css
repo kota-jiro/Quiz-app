@@ -1,0 +1,106 @@
+.student-quiz-container{
+    background-color: rgb(0 0 0 / 0.4);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: auto;
+    display: flex;
+    place-content: center;
+}
+.student-quiz-wrapper{
+    color: aliceblue;
+    text-align: center;
+    margin: 50px 50px 50px 50px ;
+}
+.student-quiz-head h2{
+    font-size: 50px;
+}
+.student-quiz-head p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.student-quiz-head span{
+    letter-spacing: 1px;
+}   
+.questionaire{
+    letter-spacing: 2px;
+}
+.questionaire li{
+    text-align: justify;
+    
+}
+.questionaire label{
+    margin-bottom: 5px;
+}
+.questionaire input{
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.student-quiz-button button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.logout {
+    margin: 50px 20px 20px 20px;
+}
+
+/* submit */
+.submit-container{
+    background-color: rgb(255 255 255 / 1);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.submit-wrapper{
+    margin: 60px 50px 60px 50px;
+    text-align: center;
+    color: black;
+}
+.submit-wrapper button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 40px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}   
+.submit-wrapper label{
+    position: absolute;
+    transform: translateX(-150px);
+}
+.submit-wrapper input{
+    position: absolute;
+    transform: translateX(-50px);
+}
+
+.studentr-container{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 158%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.studentr-wrapper{
+    margin: 60px 50px 60px 50px;
+    text-align: center;
+    color: white;
+}
+h3{
+    text-transform: capitalize;
+}

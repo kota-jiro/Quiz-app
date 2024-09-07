@@ -1,0 +1,57 @@
+.updateq-container{
+    background-color: rgb(0 0 0 / 0.4);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.updateq-wrapper{
+    margin: 60px 50px 60px 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.updateq-head h2{
+    font-size: 50px;
+}
+.updateq-head p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.updateq-body {
+    margin-bottom: 10px;
+}
+.updateq-input{
+    margin-bottom: 5px;
+}
+.updateq-input input{
+    margin-bottom: 10px;
+    width: 62%;
+    height: 40px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    transform: translateX(90px);
+}
+.updateq-button button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 40px;
+    color: black;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+.updateq-input label{
+    position: absolute;
+    margin-top: 8px;
+    transform: translateX(-90px); 
+}
+.correct-answer input{
+    text-transform: uppercase;
+}

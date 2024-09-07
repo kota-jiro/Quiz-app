@@ -1,0 +1,30 @@
+.page-container {
+    height: 100vh;
+    background-color: white;
+}
+
+.signup-container {
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(233, 233, 238);
+}
+
+.signup-container:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 3px rgb(48, 240, 86);
+}
+.create-title{
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(48, 240, 86);
+}
+.btn-signup{
+    background-color: rgb(48, 240, 86);
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 100px;
+    color: gray
+}

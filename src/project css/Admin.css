@@ -1,0 +1,87 @@
+.admin-container{
+    background-color: rgb(0 0 0 / 0.4);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.admin-wrapper{
+    margin: 60px 50px 60px 50px;
+    text-align: center;
+    color: aliceblue;
+}
+table, th, td{
+    letter-spacing: 2px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 0 2px;
+}
+table{
+    width: 1300px;
+    margin: 50px 5px 50px 5px;
+}
+th, td{
+    width: auto;
+    height: auto;
+}
+
+
+.td-button button{
+    background-color: rgb(0 0 0 / 0.1);
+    margin: 10px 5px 10px 5px;
+    width: auto;
+    height: auto;
+    color: white;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+}
+.td-button :hover{
+    background-color: white;
+    color: black;
+}
+.add-button{
+    margin-left: 1100px;
+}
+.add-button :hover{
+    background-color: white;
+    color: black;
+}
+.add-button button {
+    background-color: rgb(0 0 0 / 0.1);
+    height: 40px;
+    color: white;
+    border: 1px solid aliceblue;
+}
+.admin-button{
+    display: flex;
+}
+.admin-button button{
+    background-color: rgb(0 0 0 / 0.1);
+    margin-left: 10px;
+    height: 50px;
+    color: white;
+    border: 1px solid aliceblue;
+}
+.admin-button-1 button{
+    background-color: white;
+    color: black;
+}
+.admin-button-2 :hover{
+    background-color: white;
+    color: black;
+}
+.td-answer{
+    text-transform: uppercase;
+}
+
+/*add question*/
+/* .addq-body{
+    background-color: rgb(0 0 0 / 0.4);
+    height: 1000px;
+} */
+

@@ -1,0 +1,47 @@
+.student-r-container{
+    background-color: rgb(0 0 0 / 0.4);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.student-r-wrapper{
+    margin: 70px 50px 70px 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.student-r-head h2{
+    font-size: 50px;
+}
+.student-r-head p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.student-r-input{
+    margin-bottom: 10px;
+}
+.student-r-input input{
+    margin-bottom: 10px;
+    width: 58%;
+    height: 40px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+.student-r-button button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 40px;
+    color: black;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+}
+.back-to-login{
+    margin-top: 5px;
+}
